@@ -1,5 +1,4 @@
-# project1
-Original App Design Project - README Template
+# Original App Design Project - README Template
 ===
 
 # Nutrition & Fitness
