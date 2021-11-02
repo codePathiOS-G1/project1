@@ -1,4 +1,5 @@
-# Original App Design Project - README Template
+Nutrition & Fitness - README Template
+===
 
 # Nutrition & Fitness
 
@@ -107,10 +108,161 @@ An app that can provide a curated workout based on muscle group emphasis and hel
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+#### User
+| Property | Type | Description |
+| --------------- | --------------- | --------------- |
+| userId | String | Unique ID /Username |
+| photoId | File | Profile photo the user can upload |
+| savedMeal |File | Contains user's saved meals|
+| savedExercises |File | Contains user's saved exercises|
+| programId |File | The selected program will be viewable here|
+
+#### Meal
+| Property | Type | Description |
+| --------------- | --------------- | --------------- |
+| mealId | String | Meal name |
+| photoId | File | Photo of the meal in the feed|
+| calorieAmt | String | Calorie information for the meal| 
+| timeDuration | String | Time it takes to cook the meal|
+| savedMeal |Pointer to User | The "liked" meals will be saved onto the user |
+
+#### Exercises
+| Property | Type | Description |
+| --------------- | --------------- | --------------- |
+| exerciseId | String | Exercise name |
+| photoId | File | Photo of exercise  |
+| caption | String | Description of exercise; muscle emphasis|
+| timeDuration | String | Estimated time exercise will take|
+| savedExercises |Pointer to User | The "liked" exercises will be saved onto the user |
+| programId |String | holds programs |
+
+
+#### Programs
+| Property | Type | Description |
+| --------------- | --------------- | --------------- |
+| programId| String | program name |
+| programIdPtr| Points to User | stores program name and points to user |
+
+#### Settings
+| Property | Type | Description |
+| --------------- | --------------- | --------------- |
+| userId | String | Unique ID /Username |
+| viewId | String | Light or dark mode toggle |
+| language | File | sets of languages user can select |
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### Login Screen
+* (Create/POST) Create a new username
+* (Create/POST) Password
+* (Read) Read and check login credentials
+
+#### Home Screen 
+* (Update/PUT) Update progress of the user
+* (Read/GET) Suggested workouts
+* (Read/GET) Suggested meals
+* (Update/PUT) User logout 
+
+#### User Screen
+* (Update/PUT) The user's fitness goals 
+* (Update/PUT) Change the user's profile photo
+* (Delete) Remove current user profile photo
+* (Read/GET) Show user information
+
+#### Meal Screen
+* (Read/GET) Meal feed; list of recipes
+* (Read/GET) Query
+* (Update/PUT) Save button for user to save meal
+
+#### Exercises Screen
+* (Read/GET) Exercise feed; list of exercises
+* (Read/GET) Query
+* (Update/PUT) Save button for user to save exercise
+
+#### Save Screen 
+* (Read/GET) Show user's liked meals
+* (Read/GET) Show user's liked exercises
+* (Delete) Remove saved meal
+* (Delete) Remove saved exercise
+
+
+#### Settings Screen 
+* (Update/PUT) Change user's light/dark theme
+
+### Basic snippets for each Parse network request
+* Get Posts
+    ```
+    // iOS
+    // (Read/GET) Query all posts where user is author
+    let query = PFQuery(className:"Post")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error {
+          print(error.localizedDescription)
+       } else if let posts = posts {
+          print("Successfully retrieved \(posts.count) posts.")
+          // TODO: Do something with posts...
+       }
+    }
+    ```
+* Sign up for user account   
+    ```
+     user.username = usernameField.text //set to the user field from loginPage
+        user.password = passwordField.text//repeat for password
+        user.signUpInBackground { (success, error) in
+            if success{ //if no eror
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }else{
+                print("Error: \(error?.localizedDescription)") //print error variable
+            }
+        }
+* Login creditials checkpoint
+```
+ let username = usernameField.text!
+        let password = passwordField.text!
+        
+        PFUser.logInWithUsername(inBackground: username, password: password) { (user, error) in
+            if user != nil{
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }else{
+                print("Error: \(error?.localizedDescription)")
+            }
+        }
+```        
+* Upload user profile photo from photo library
+```
+  let post = PFObject(className: "Posts") //like a dictionary put arbitrary keys and numbers
+        post["caption"] = commentField.text
+        post["author"] = PFUser.current()! //current person
+        
+        //grab imagedata binary
+        let imageData = imageView.image!.pngData() //saved as png
+        //let file = PFFileObject(data: imageData!) //binary object
+        let file = PFFileObject(name: "image.png", data: imageData!)
+        post["image"] = file //column will have the file url containing the image
+        
+        post.saveInBackground { (success, erorr) in
+            if success{
+                self.dismiss(animated: true, completion: nil)
+                print("saved!")
+            }else{
+                print("error!")
+            }
+        }
+```
+
+* Delete an item
+```
+[PFObject deleteAllInBackground:objectArray block:^(BOOL succeeded, NSError * _Nullable error) {
+    if (succeeded) {
+        // The array of objects was successfully deleted.
+    } else {
+        // There was an error. Check the errors localizedDescription.
+    }
+}];
+```
