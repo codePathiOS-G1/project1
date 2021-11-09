@@ -267,5 +267,4 @@ An app that can provide a curated workout based on muscle group emphasis and hel
 }];
 ```
 # Group Milestone #1
-Gif: https://imgur.com/a/VJsQOZB
-<img src='https://i.imgur.com/wTbqkIR.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/wTbqkIR.gif' title='GIF Walkthrough' width='600' alt='Video Walkthrough' />
