@@ -265,4 +265,8 @@ An app that can provide a curated workout based on muscle group emphasis and hel
         // There was an error. Check the errors localizedDescription.
     }
 }];
+
 ```
+##Group Milestone #1
+Gif:
+https://imgur.com/a/VJsQOZB

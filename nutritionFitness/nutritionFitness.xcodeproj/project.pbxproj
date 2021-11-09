@@ -16,6 +16,8 @@
 		4BDDC61727321F2F00DEF9B5 /* nutritionFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC61627321F2F00DEF9B5 /* nutritionFitnessTests.swift */; };
 		4BDDC62127321F2F00DEF9B5 /* nutritionFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC62027321F2F00DEF9B5 /* nutritionFitnessUITests.swift */; };
 		4BDDC62327321F2F00DEF9B5 /* nutritionFitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC62227321F2F00DEF9B5 /* nutritionFitnessUITestsLaunchTests.swift */; };
+		64B08FF1273A265F0015B8DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B08FF0273A265F0015B8DC /* LoginViewController.swift */; };
+		64B08FF3273A26830015B8DC /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B08FF2273A26830015B8DC /* LoginScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4BDDC61C27321F2F00DEF9B5 /* nutritionFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutritionFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDDC62027321F2F00DEF9B5 /* nutritionFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionFitnessUITests.swift; sourceTree = "<group>"; };
 		4BDDC62227321F2F00DEF9B5 /* nutritionFitnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionFitnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64B08FF0273A265F0015B8DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		64B08FF2273A26830015B8DC /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */,
 				4BDDC60A27321F2F00DEF9B5 /* LaunchScreen.storyboard */,
 				4BDDC60D27321F2F00DEF9B5 /* Info.plist */,
+				64B08FF0273A265F0015B8DC /* LoginViewController.swift */,
+				64B08FF2273A26830015B8DC /* LoginScreen.storyboard */,
 			);
 			path = nutritionFitness;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				4BDDC60C27321F2F00DEF9B5 /* LaunchScreen.storyboard in Resources */,
 				4BDDC60927321F2F00DEF9B5 /* Assets.xcassets in Resources */,
+				64B08FF3273A26830015B8DC /* LoginScreen.storyboard in Resources */,
 				4BDDC60727321F2D00DEF9B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B08FF1273A265F0015B8DC /* LoginViewController.swift in Sources */,
 				4BDDC60427321F2D00DEF9B5 /* ViewController.swift in Sources */,
 				4BDDC60027321F2D00DEF9B5 /* AppDelegate.swift in Sources */,
 				4BDDC60227321F2D00DEF9B5 /* SceneDelegate.swift in Sources */,
