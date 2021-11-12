@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
         
         user.signUpInBackground{(success, error) in
             if success {
-                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                self.performSegue(withIdentifier: "signupSegue", sender: nil)
             } else {
                 print("Error: \(String(describing: error?.localizedDescription))")
             }
