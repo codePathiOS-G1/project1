@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import AlamofireImage
+import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let parseConfig = ParseClientConfiguration {
+                $0.applicationId = "nmUre2tC8mlv0MhJOb0iTYk60LRdetb5iK6qh8gY" // <- UPDATE
+                $0.clientKey = "aQY2fLpPeFLikWsLuArF4ENV3neJr1nP6F0Xo2A9" // <- UPDATE
+                $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+        
         return true
     }
 

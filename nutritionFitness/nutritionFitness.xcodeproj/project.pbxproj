@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4BDDC60027321F2D00DEF9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC5FF27321F2D00DEF9B5 /* AppDelegate.swift */; };
 		4BDDC60227321F2D00DEF9B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC60127321F2D00DEF9B5 /* SceneDelegate.swift */; };
-		4BDDC60427321F2D00DEF9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC60327321F2D00DEF9B5 /* ViewController.swift */; };
+		4BDDC60427321F2D00DEF9B5 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC60327321F2D00DEF9B5 /* mainViewController.swift */; };
 		4BDDC60727321F2D00DEF9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDC60527321F2D00DEF9B5 /* Main.storyboard */; };
 		4BDDC60927321F2F00DEF9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */; };
 		4BDDC60C27321F2F00DEF9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDC60A27321F2F00DEF9B5 /* LaunchScreen.storyboard */; };
@@ -45,7 +45,7 @@
 		4BDDC5FC27321F2D00DEF9B5 /* nutritionFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutritionFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDDC5FF27321F2D00DEF9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BDDC60127321F2D00DEF9B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BDDC60327321F2D00DEF9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BDDC60327321F2D00DEF9B5 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		4BDDC60627321F2D00DEF9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BDDC60B27321F2F00DEF9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 			children = (
 				4BDDC5FF27321F2D00DEF9B5 /* AppDelegate.swift */,
 				4BDDC60127321F2D00DEF9B5 /* SceneDelegate.swift */,
-				4BDDC60327321F2D00DEF9B5 /* ViewController.swift */,
+				4BDDC60327321F2D00DEF9B5 /* mainViewController.swift */,
 				4BDDC60527321F2D00DEF9B5 /* Main.storyboard */,
 				4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */,
 				4BDDC60A27321F2F00DEF9B5 /* LaunchScreen.storyboard */,
@@ -170,7 +170,6 @@
 				1BC2001E6DC29AC7C9DEC7F7 /* Pods-nutritionFitnessTests.debug.xcconfig */,
 				A581D5283E6C5236230B9234 /* Pods-nutritionFitnessTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,7 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B08FF1273A265F0015B8DC /* LoginViewController.swift in Sources */,
-				4BDDC60427321F2D00DEF9B5 /* ViewController.swift in Sources */,
+				4BDDC60427321F2D00DEF9B5 /* mainViewController.swift in Sources */,
 				4BDDC60027321F2D00DEF9B5 /* AppDelegate.swift in Sources */,
 				4BDDC60227321F2D00DEF9B5 /* SceneDelegate.swift in Sources */,
 			);
