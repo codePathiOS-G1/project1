@@ -16,12 +16,17 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    // Basic labels and text fields
+    // Basic labels and text fields (Login)
     @IBOutlet weak var loginTitle: UILabel!
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
-    // Login button
+    // Basic labels and text fields (Signup)
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var registerUsername: UITextField!
+    @IBOutlet weak var resgisterPassword: UITextField!
+    
+    // Login
     @IBAction func onLogin(_ sender: Any) {
         let username = usernameField.text!
         let password = passwordField.text!
@@ -36,20 +41,28 @@ class LoginViewController: UIViewController {
         }
     }
     
-    // Signup button
+    // Go to signup screen
     @IBAction func onSignup(_ sender: Any) {
+        self.performSegue(withIdentifier: "signupSegue", sender: nil)
+    }
+    
+    // New user sign up
+    @IBAction func onNewUserSignup(_ sender: Any) {
         let user = PFUser()
-        user.username = usernameField.text
-        user.password = passwordField.text
+        
+        user.email = emailField.text
+        user.username = registerUsername.text
+        user.password = resgisterPassword.text
         
         user.signUpInBackground{(success, error) in
             if success {
-                self.performSegue(withIdentifier: "signupSegue", sender: nil)
+                self.performSegue(withIdentifier: "successfulSignup", sender: nil)
             } else {
                 print("Error: \(String(describing: error?.localizedDescription))")
             }
         }
     }
+    
     
     /*
     // MARK: - Navigation
