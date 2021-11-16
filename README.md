@@ -267,14 +267,20 @@ An app that can provide a curated workout based on muscle group emphasis and hel
 }];
 
 ```
-##Group Milestone #1
+# Group Milestone #1
 Gif:
 https://imgur.com/a/VJsQOZB
 =======
-# Group Milestone #1
 <img src='https://i.imgur.com/wTbqkIR.gif' title='GIF Walkthrough' width='600' alt='Video Walkthrough' />
 >>>>>>> 40fdf4e07feb234fc8152f63fae706168bb2d666
 
 # Group Milestone #2
 Gif:
 https://imgur.com/a/c1FZppf
+=======
+<img src='https://i.imgur.com/CthX1hZ.gif' title='Login Storyboard' width='600' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/WuIsNyX.gif' title='Login View controller code for login, sign up screen button, and sign up button.' width='600' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Q6jJxM5.gif' title='App delegate Parse code' width='600' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/XnqmVpI.gif' title='Scene Delegate Parse code (if user is already logged in).' width='600' alt='Video Walkthrough' />
+
+
