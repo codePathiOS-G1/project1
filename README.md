@@ -28,7 +28,7 @@ An app that can provide a curated workout based on muscle group emphasis and hel
 
 **Required Must-have Stories**
 
-* User-login and Sign up
+* [*] User-login and Sign up
 * scroll feature to view feed
 * Category of exercises: Cardio, Bodybuilding, Calisthenics, Powerlifting
 * View meal plans
@@ -274,3 +274,7 @@ https://imgur.com/a/VJsQOZB
 # Group Milestone #1
 <img src='https://i.imgur.com/wTbqkIR.gif' title='GIF Walkthrough' width='600' alt='Video Walkthrough' />
 >>>>>>> 40fdf4e07feb234fc8152f63fae706168bb2d666
+
+# Group Milestone #2
+Gif:
+https://imgur.com/a/c1FZppf
