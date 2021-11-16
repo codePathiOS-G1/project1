@@ -28,19 +28,19 @@ An app that can provide a curated workout based on muscle group emphasis and hel
 
 **Required Must-have Stories**
 
-* [*] User-login and Sign up
-* scroll feature to view feed
-* Category of exercises: Cardio, Bodybuilding, Calisthenics, Powerlifting
-* View meal plans
-* Saving progress on the individual's account
+[x] User-login and Sign up
+[] scroll feature to view feed
+[] Category of exercises: Cardio, Bodybuilding, Calisthenics, Powerlifting
+[] View meal plans
+[] Saving progress on the individual's account
 
 **Optional Nice-to-have Stories**
 
-* Reader's Digest kind of guides 
-* Point system
-* Variable exercises
-* Timer
-* Collect badges upon completion and show off on their profile
+[] Reader's Digest kind of guides 
+[] Point system
+[] Variable exercises
+[] Timer
+[] Collect badges upon completion and show off on their profile
 
 
 ### 2. Screen Archetypes
