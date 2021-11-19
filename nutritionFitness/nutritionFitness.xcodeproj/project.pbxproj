@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4BDDC60027321F2D00DEF9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC5FF27321F2D00DEF9B5 /* AppDelegate.swift */; };
 		4BDDC60227321F2D00DEF9B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC60127321F2D00DEF9B5 /* SceneDelegate.swift */; };
-		4BDDC60427321F2D00DEF9B5 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC60327321F2D00DEF9B5 /* mainViewController.swift */; };
-		4BDDC60727321F2D00DEF9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDC60527321F2D00DEF9B5 /* Main.storyboard */; };
 		4BDDC60927321F2F00DEF9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */; };
 		4BDDC60C27321F2F00DEF9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDC60A27321F2F00DEF9B5 /* LaunchScreen.storyboard */; };
 		4BDDC61727321F2F00DEF9B5 /* nutritionFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC61627321F2F00DEF9B5 /* nutritionFitnessTests.swift */; };
@@ -18,6 +16,12 @@
 		4BDDC62327321F2F00DEF9B5 /* nutritionFitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC62227321F2F00DEF9B5 /* nutritionFitnessUITestsLaunchTests.swift */; };
 		64B08FF1273A265F0015B8DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B08FF0273A265F0015B8DC /* LoginViewController.swift */; };
 		64B08FF3273A26830015B8DC /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B08FF2273A26830015B8DC /* LoginScreen.storyboard */; };
+		64CB5ABB274781CD00E8DD3C /* ExerciseFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CB5ABA274781CD00E8DD3C /* ExerciseFeed.storyboard */; };
+		64CB5ABD274781F500E8DD3C /* ExerciseFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB5ABC274781F500E8DD3C /* ExerciseFeedViewController.swift */; };
+		64CB5ABF2747824400E8DD3C /* MealFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CB5ABE2747824400E8DD3C /* MealFeed.storyboard */; };
+		64CB5AC12747825D00E8DD3C /* MealFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB5AC02747825D00E8DD3C /* MealFeedViewController.swift */; };
+		64CB5AC3274782AF00E8DD3C /* HomeFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CB5AC2274782AF00E8DD3C /* HomeFeed.storyboard */; };
+		64CB5AC5274782C100E8DD3C /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB5AC4274782C000E8DD3C /* HomeFeedViewController.swift */; };
 		9A05C16DB24B4F16E4E623E7 /* Pods_nutritionFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F0DB3DC52358F348A8C100 /* Pods_nutritionFitness.framework */; };
 		A90C6EDC16F6B649598ECAE5 /* Pods_nutritionFitnessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511E7513E35AEF334A7AEC6 /* Pods_nutritionFitnessTests.framework */; };
 		B0BDA3060DD1818BA61835D7 /* Pods_nutritionFitness_nutritionFitnessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAC485A638790DD465EF1E /* Pods_nutritionFitness_nutritionFitnessUITests.framework */; };
@@ -45,8 +49,6 @@
 		4BDDC5FC27321F2D00DEF9B5 /* nutritionFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutritionFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDDC5FF27321F2D00DEF9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BDDC60127321F2D00DEF9B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BDDC60327321F2D00DEF9B5 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
-		4BDDC60627321F2D00DEF9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BDDC60B27321F2F00DEF9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BDDC60D27321F2F00DEF9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +60,12 @@
 		563EF895738903C9FAB2D995 /* Pods-nutritionFitness-nutritionFitnessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionFitness-nutritionFitnessUITests.debug.xcconfig"; path = "Target Support Files/Pods-nutritionFitness-nutritionFitnessUITests/Pods-nutritionFitness-nutritionFitnessUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		64B08FF0273A265F0015B8DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		64B08FF2273A26830015B8DC /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		64CB5ABA274781CD00E8DD3C /* ExerciseFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExerciseFeed.storyboard; sourceTree = "<group>"; };
+		64CB5ABC274781F500E8DD3C /* ExerciseFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseFeedViewController.swift; sourceTree = "<group>"; };
+		64CB5ABE2747824400E8DD3C /* MealFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MealFeed.storyboard; sourceTree = "<group>"; };
+		64CB5AC02747825D00E8DD3C /* MealFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFeedViewController.swift; sourceTree = "<group>"; };
+		64CB5AC2274782AF00E8DD3C /* HomeFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeFeed.storyboard; sourceTree = "<group>"; };
+		64CB5AC4274782C000E8DD3C /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
 		76CC255C9E12C88CD12FA83D /* Pods-nutritionFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionFitness.release.xcconfig"; path = "Target Support Files/Pods-nutritionFitness/Pods-nutritionFitness.release.xcconfig"; sourceTree = "<group>"; };
 		8511E7513E35AEF334A7AEC6 /* Pods_nutritionFitnessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nutritionFitnessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E94C4818BA66BB801231E5 /* Pods-nutritionFitness-nutritionFitnessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionFitness-nutritionFitnessUITests.release.xcconfig"; path = "Target Support Files/Pods-nutritionFitness-nutritionFitnessUITests/Pods-nutritionFitness-nutritionFitnessUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,13 +130,17 @@
 			children = (
 				4BDDC5FF27321F2D00DEF9B5 /* AppDelegate.swift */,
 				4BDDC60127321F2D00DEF9B5 /* SceneDelegate.swift */,
-				4BDDC60327321F2D00DEF9B5 /* mainViewController.swift */,
-				4BDDC60527321F2D00DEF9B5 /* Main.storyboard */,
 				4BDDC60827321F2F00DEF9B5 /* Assets.xcassets */,
 				4BDDC60A27321F2F00DEF9B5 /* LaunchScreen.storyboard */,
 				4BDDC60D27321F2F00DEF9B5 /* Info.plist */,
 				64B08FF0273A265F0015B8DC /* LoginViewController.swift */,
 				64B08FF2273A26830015B8DC /* LoginScreen.storyboard */,
+				64CB5ABA274781CD00E8DD3C /* ExerciseFeed.storyboard */,
+				64CB5ABC274781F500E8DD3C /* ExerciseFeedViewController.swift */,
+				64CB5ABE2747824400E8DD3C /* MealFeed.storyboard */,
+				64CB5AC02747825D00E8DD3C /* MealFeedViewController.swift */,
+				64CB5AC2274782AF00E8DD3C /* HomeFeed.storyboard */,
+				64CB5AC4274782C000E8DD3C /* HomeFeedViewController.swift */,
 			);
 			path = nutritionFitness;
 			sourceTree = "<group>";
@@ -282,10 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CB5ABB274781CD00E8DD3C /* ExerciseFeed.storyboard in Resources */,
+				64CB5AC3274782AF00E8DD3C /* HomeFeed.storyboard in Resources */,
 				4BDDC60C27321F2F00DEF9B5 /* LaunchScreen.storyboard in Resources */,
 				4BDDC60927321F2F00DEF9B5 /* Assets.xcassets in Resources */,
 				64B08FF3273A26830015B8DC /* LoginScreen.storyboard in Resources */,
-				4BDDC60727321F2D00DEF9B5 /* Main.storyboard in Resources */,
+				64CB5ABF2747824400E8DD3C /* MealFeed.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CB5ABD274781F500E8DD3C /* ExerciseFeedViewController.swift in Sources */,
 				64B08FF1273A265F0015B8DC /* LoginViewController.swift in Sources */,
-				4BDDC60427321F2D00DEF9B5 /* mainViewController.swift in Sources */,
+				64CB5AC12747825D00E8DD3C /* MealFeedViewController.swift in Sources */,
 				4BDDC60027321F2D00DEF9B5 /* AppDelegate.swift in Sources */,
 				4BDDC60227321F2D00DEF9B5 /* SceneDelegate.swift in Sources */,
+				64CB5AC5274782C100E8DD3C /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4BDDC60527321F2D00DEF9B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BDDC60627321F2D00DEF9B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BDDC60A27321F2F00DEF9B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
