@@ -283,4 +283,8 @@ https://imgur.com/a/c1FZppf
 <img src='https://i.imgur.com/Q6jJxM5.gif' title='App delegate Parse code' width='600' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/XnqmVpI.gif' title='Scene Delegate Parse code (if user is already logged in).' width='600' alt='Video Walkthrough' />
 
-
+#Group Milestone #3
+Gif:
+https://imgur.com/a/X6hcP6n
+=======
+<img src='https://imgur.com/a/X6hcP6n.gif' title='Milestone 3 - Gif' width='600' alt='Video Walkthrough' />
