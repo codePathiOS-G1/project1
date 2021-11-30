@@ -291,4 +291,7 @@ https://imgur.com/a/X6hcP6n
 
 #Group Milestone #4
 Gif:
+https://imgur.com/a/kzUmQ1y
+=======
+<img src='https://imgur.com/a/kzUmQ1y.gif' title='Milestone 3 - Gif' width='600' alt='Video Walkthrough' />
 
