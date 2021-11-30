@@ -293,5 +293,5 @@ https://imgur.com/a/X6hcP6n
 Gif:
 https://imgur.com/a/kzUmQ1y
 =======
-<img src='https://imgur.com/a/kzUmQ1y.gif' title='Milestone 3 - Gif' width='600' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/kh4T7on.gif' title='Milestone 3 - Gif' width='600' alt='Video Walkthrough' />
 
